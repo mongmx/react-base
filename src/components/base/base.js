@@ -1,9 +1,19 @@
 import styled from "styled-components";
 
 export const Page = styled.div`
-    border: 1px solid black;
+    // border: 1px solid black;
+    // height: 100vh;
+`;
+
+export const TopBar = styled.div`
+    border-bottom: 1px solid black;
+    padding: 5px;
+`;
+
+export const Container = styled.div`
+    // border: 1px solid black;
     height: 100vh;
-    margin-top: 20px;
+    text-align: center;
 `;
 
 // export const Column = styled`
